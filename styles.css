@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  main {
+    padding: 2rem;
+  }
+  
+  #catalog {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  .painting {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+    width: calc(33% - 2rem);
+    box-sizing: border-box;
+    padding: 1rem;
+  }
+  
+  .painting img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .painting h3 {
+    margin: 0.5rem 0;
+  }
+  
+  .painting p {
+    margin: 0.5rem 0;
+  }
+  
